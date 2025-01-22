@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any global styles here */
+
+@layer base {
+ body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+ }
+}
